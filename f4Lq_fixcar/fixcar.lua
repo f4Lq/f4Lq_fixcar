@@ -6,9 +6,9 @@ RegisterCommand("fixcar", function(source, args, rawCommand)
         SetVehicleDeformationFixed(vehicle)
         SetVehicleUndriveable(vehicle, false)
         SetVehicleEngineOn(vehicle, true, true)
-        NotifySuccess("Auto zostało naprawione.")
+        NotifySuccess("The car has been repaired.")
     else
-        NotifyError("Musisz być w pojeździe, aby go naprawić.")
+        NotifyError("You must be in the vehicle to repair it.")
     end
 end, false)
 
@@ -20,9 +20,9 @@ TriggerEvent('es:addGroupCommand', 'fixcar', 'admin', function(source, args, use
         SetVehicleDeformationFixed(vehicle)
         SetVehicleUndriveable(vehicle, false)
         SetVehicleEngineOn(vehicle, true, true)
-        NotifySuccess("Auto zostało naprawione.")
+        NotifySuccess("The car has been repaired.")
     else
-        NotifyError("Musisz być w pojeździe, aby go naprawić.")
+        NotifyError("You must be in the vehicle to repair it.")
     end
 end)
 
