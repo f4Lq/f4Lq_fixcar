@@ -27,9 +27,9 @@ TriggerEvent('es:addGroupCommand', 'fixcar', 'admin', function(source, args, use
 end)
 
 function NotifySuccess(message)
-    TriggerEvent('dopeNotify2:Alert', "FixCar", message, 5000, "success")
+    TriggerEvent('f4LqNotify:Alert', "FixCar", message, 5000, "success")
 end
 
 function NotifyError(message)
-    TriggerEvent('dopeNotify2:Alert', "FixCar", message, 5000, "error")
+    TriggerEvent('f4LqNotify:Alert', "FixCar", message, 5000, "error")
 end
