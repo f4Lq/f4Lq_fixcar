@@ -6,9 +6,9 @@ RegisterCommand("fixcar", function(source, args, rawCommand)
         SetVehicleDeformationFixed(vehicle)
         SetVehicleUndriveable(vehicle, false)
         SetVehicleEngineOn(vehicle, true, true)
-        NotifySuccess("The car has been repaired.")
+        NotifySuccess("The car has been <b><span style='color:green'>repaired.</span></b>")
     else
-        NotifyError("You must be in the vehicle to repair it.")
+        NotifyError("<b><span style='color:red'>You must be in the vehicle to repair it.</span></b>")
     end
 end, false)
 
@@ -20,9 +20,9 @@ TriggerEvent('es:addGroupCommand', 'fixcar', 'admin', function(source, args, use
         SetVehicleDeformationFixed(vehicle)
         SetVehicleUndriveable(vehicle, false)
         SetVehicleEngineOn(vehicle, true, true)
-        NotifySuccess("The car has been repaired.")
+        NotifySuccess("The car has been <b><span style='color:green'>repaired.</span></b>")
     else
-        NotifyError("You must be in the vehicle to repair it.")
+        NotifyError("<b><span style='color:red'>You must be in the vehicle to repair it.</span></b>")
     end
 end)
 
