@@ -1,4 +1,4 @@
-This is a script that allows you to repair your vehicle using the "/fixcar" command.
+This is a script that allows you to repair your vehicle using the <b>"/fixcar"</b> command.
 
 <b>Script required:</b>
 
