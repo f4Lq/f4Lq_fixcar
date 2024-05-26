@@ -13,3 +13,4 @@ client_script {
 }
 
 
+dependency 'f4LqNotify'
